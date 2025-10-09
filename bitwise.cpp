@@ -10,7 +10,7 @@ int main(){
     cout<<"a&b "<<(a&b)<<'\n';
     cout<<"a|b "<<(a|b)<<'\n';
     cout<<"~a "<<(~a)<<'\n';
-    cout<<"a^b "<<(a^b)<<'\n';
+    cout<<"a^b "<<(a^b)<<'\n';  //cin>>
 
     cout<<(17>>1)<<endl;
     cout<<(17>>2)<<endl;

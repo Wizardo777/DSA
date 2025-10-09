@@ -2,8 +2,9 @@
 #include <climits>
 using namespace std;
 
-int getMax(int num[], int n) {
-    int maxVal = INT_MIN;
+int getMax(int num[], int n) {    // int returns value (void doesnt it is for things like printing etc)
+
+    int maxVal = INT_MIN;  //INT_MIN initialise variable to start with smallest possible element 
     for (int i = 0; i < n; i++) {
         if (num[i] > maxVal) {
             maxVal = num[i];
