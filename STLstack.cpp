@@ -4,7 +4,22 @@
 using namespace std;
 
 int main(){
-    
+   
+    stack<string> s;
+
+    s.push("love");
+    s.push("loe");
+    s.push("ve");
+
+    cout<<"top element "<<s.top()<<endl;
+
+    s.pop();
+
+    cout<<"top element after pop "<<s.top()<<endl;
+
+    cout<<"size of stack"<<s.size()<<endl;
+
+    cout<<"empty or not"<<s.empty()<<endl;
 
 
 
